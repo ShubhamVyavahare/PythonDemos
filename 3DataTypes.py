@@ -3,7 +3,7 @@
 # Numbers
 var1 = 10
 var2 = 20
-print(var1, var2)
+print("Variables: ", var1, var2)
 del var1
 # print(var1, var2)
 
@@ -24,17 +24,17 @@ print(str + "TEST")  # Prints concatenated string
 list = ['abcd', 786, 2.23, 'john', 70.2]
 tinylist = [123, 'john']
 
-print(list)  # Prints complete list
-print(list[0])  # Prints first element of the list
-print(list[1:3])  # Prints elements starting from 2nd till 3rd
-print(list[2:])  # Prints elements starting from 3rd element
+print("List: ", list)  # Prints complete list
+print("First element of list: ", list[0])  # Prints first element of the list
+print("2nd and 3rd element of list: ", list[1:3])  # Prints elements starting from 2nd till 3rd
+print("Elements starting from 3rd element", list[2:])  # Prints elements starting from 3rd element
 print(tinylist * 2)  # Prints list two times
-print(list + tinylist)  # Prints concatenated lists
+print("Concatenated lists : ", list + tinylist)  # Prints concatenated lists
 
 # Tuple
 # can't be updated
 tuple = ('shivani', 1.1, 20)
-print(tuple)
+print("Tuple: ", tuple)
 print("Name: ", tuple[0])
 print(tuple[1:3])
 
@@ -46,8 +46,8 @@ dict[2] = "This is two"
 
 tinydict = {'name': 'john', 'code': 6734, 'dept': 'sales'}
 
-print(dict['one'])  # Prints value for 'one' key
-print(dict[2])  # Prints value for 2 key
-print(tinydict)  # Prints complete dictionary
-print(tinydict.keys())  # Prints all the keys
-print(tinydict.values())  # Prints all the values
+print("Value for key 'one' : ", dict['one'])  # Prints value for 'one' key
+print("Value for key 2 : ", dict[2])  # Prints value for 2 key
+print("Dictionary : ", tinydict)  # Prints complete dictionary
+print("Keys : ", tinydict.keys())  # Prints all the keys
+print("Values : ", tinydict.values())  # Prints all the values

@@ -1,6 +1,6 @@
 print("Hello World")
 
-greet = "Hello World"
+greet = "Hello Shubham"
 print(greet)
 
 # Basics of python
